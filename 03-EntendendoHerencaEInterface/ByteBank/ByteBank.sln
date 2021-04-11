@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ByteBank", "ByteBank\ByteBank.csproj", "{15744742-8DE3-4BC8-95AD-884A40BEB7BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15744742-8DE3-4BC8-95AD-884A40BEB7BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15744742-8DE3-4BC8-95AD-884A40BEB7BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15744742-8DE3-4BC8-95AD-884A40BEB7BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15744742-8DE3-4BC8-95AD-884A40BEB7BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C58A7D42-368B-4F5A-9096-8D921F6B1911}
+	EndGlobalSection
+EndGlobal
