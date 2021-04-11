@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\NovaPasta1\**" />
+    <Compile Remove="Models\NovaPasta2\**" />
+    <Content Remove="Models\NovaPasta1\**" />
+    <Content Remove="Models\NovaPasta2\**" />
+    <EmbeddedResource Remove="Models\NovaPasta1\**" />
+    <EmbeddedResource Remove="Models\NovaPasta2\**" />
+    <None Remove="Models\NovaPasta1\**" />
+    <None Remove="Models\NovaPasta2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
